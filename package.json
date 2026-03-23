@@ -8,7 +8,8 @@
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "typecheck": "turbo run typecheck",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "new-package": "turbo gen package"
   },
   "devDependencies": {
     "@commitlint/cli": "^20.5.0",
@@ -17,6 +18,8 @@
     "@kunal-singh/eslint-config": "^0.2.4",
     "@kunal-singh/prettier-config": "^0.1.1",
     "@kunal-singh/typescript-config": "^0.2.3",
+    "@turbo/gen": "^2.8.20",
+    "@types/node": "^25.5.0",
     "eslint": "^10.1.0",
     "lefthook": "^2.1.4",
     "lint-staged": "^16.4.0",

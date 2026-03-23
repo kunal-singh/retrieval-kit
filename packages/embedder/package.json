@@ -1,5 +1,5 @@
 {
-  "name": "@kunal-singh/rkit-core",
+  "name": "@kunal-singh/rkit-embedder",
   "version": "0.0.1",
   "type": "module",
   "main": "./dist/index.cjs",
